@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    font-size: 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.rightnav{
+    width: 10%;
+    display: flex;
+    align-items: right;
+    margin-left: 65px;
+}
+.rightnav li{
+    list-style: none;
+    padding: 26px 30px;
+    font-size: 20px;
+}
+.rightnav li a{
+    text-decoration: none;
+    color: white;
+}
+.rightnav li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.logo img{
+    width: 72%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0,0,0, 0.7) url(bid.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 66%;
+    margin: auto;
+    height: 75%;
+}
+.secondhalf img{
+    width: 595%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+.firsthalf{
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secondhalf{
+    width: 23px;
+}
+.text-big{
+    font-size: 50px;
+}
+.text-small{
+    font-size: 25px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+.btn:hover{
+    font-size: 25px;
+}
+.btn-sn{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 50%;
+    margin: auto;
+    font-family: 'Mooli', sans-serif;
+}
+.sectionleft{
+    flex-direction: row-reverse;
+}
+.thumbnail img{
+    width: 226px;
+    height: 225px;
+    border: 2px solid black;
+    border-radius: 26px;
+}
+.paras{
+    padding: 0px 49px;
+}
+#contact{
+    background-color: bisque;
+    height: 100%;
+}
+.text-center{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Mooli', sans-serif;
+    font-size: 34px;
+}
+.form1{
+    max-width: 500px;
+    margin: 1px auto;
+}
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 5px 3px;
+    font-family: 'Mooli', sans-serif;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+}
